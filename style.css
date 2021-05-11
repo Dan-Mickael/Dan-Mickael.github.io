@@ -109,6 +109,8 @@ p{
 	word-wrap: break-word;
 	text-align: justify;
 	font-size: 1.2em;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .comp{
@@ -116,8 +118,14 @@ p{
 	font-size: 1.2em;
 }
 
-span,h3{
+span{
 	font-weight: bold;
+}
+
+h3{
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 footer{
@@ -148,8 +156,7 @@ aside{
 
 div{
 	margin-left: 0px;
-
-
+	background-repeat: repeat;
 }
 
 #photomoi {
@@ -157,5 +164,9 @@ div{
 }
 
 #photolaposte {
+	display: none;
+}
+
+figure{
 	display: none;
 }
