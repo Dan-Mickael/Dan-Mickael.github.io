@@ -139,3 +139,23 @@ figure{
 	font-size: 1.2em;
 	color: blue;
 }
+
+@media screen and (max-width: 980px){
+
+aside{
+	display: none;
+}
+
+div{
+	margin-left: 0px;
+
+
+}
+
+#photomoi {
+	display: none;
+}
+
+#photolaposte {
+	display: none;
+}
